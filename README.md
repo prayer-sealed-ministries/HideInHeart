@@ -1,6 +1,6 @@
 # Hide in Heart
 
-**[Live App →](https://hideinheart.com/)**
+**[Live App →](https://heart.prayersealed.org/)**
 
 ## About
 
@@ -188,3 +188,16 @@ npm run preflight
 4. Trigger deployment via push to `main` or manually from Actions.
 
 Workflow files: `.github/workflows/ci.yml`, `.github/workflows/deploy.yml`
+
+### Ministry domain
+
+The intended production address is `https://heart.prayersealed.org`.
+This app deploys to Vercel, not GitHub Pages; no repository `CNAME` file is required.
+
+1. In the existing Vercel project's Settings → Domains, add `heart.prayersealed.org` to Production.
+2. In GoDaddy's DNS zone for `prayersealed.org`, add a CNAME named `heart` with the exact target Vercel displays. Keep the other ministry DNS records unchanged.
+3. Set the Vercel Production environment variable `NEXT_PUBLIC_APP_URL=https://heart.prayersealed.org` and redeploy. This sets the metadata, sitemap, and robots sitemap URL through `getAppUrl()`.
+4. Verify HTTPS, navigation, and generated metadata on the new address before redirecting the old domain.
+5. If Supabase authentication is enabled, update its Site URL and applicable allowed redirect URLs for the new origin, and verify sign-in and confirmation links.
+
+Browser-local progress and reflections belong to the old origin and do not automatically transfer to the new domain. Keep the old address accessible until any required data migration has been handled.
