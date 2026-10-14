@@ -35,18 +35,6 @@ for (const [theme, verseRefs] of Object.entries(refs)) {
   themeCounts[theme] = verseRefs.length;
 }
 
-// Parse catalog counts
-const catalogSections = catalog.matchAll(/### (.+?) \((\d+)\)/g);
-for (const m of catalogSections) {
-  const label = m[1];
-  const catalogCount = parseInt(m[2]);
-  // Find matching theme
-  const actualRefs = [];
-  for (const [theme, vRefs] of Object.entries(refs)) {
-    // catalog lines within this section
-  }
-}
-
 const totalSource = Object.values(themeCounts).reduce((a, b) => a + b, 0);
 console.log('Source themes:', Object.keys(refs).length);
 console.log('Source total adult verses:', totalSource);

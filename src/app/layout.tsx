@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Crimson_Text } from "next/font/google";
 
 import { BottomNav } from "@/components/bottom-nav";
+import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { AudienceProvider } from "@/lib/audience-context";
 import { AuthSync } from "@/lib/auth-sync";
@@ -71,6 +72,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <main id="main-content">
                 {children}
               </main>
+              <SiteFooter />
             </div>
             <BottomNav />
 

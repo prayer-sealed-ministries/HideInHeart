@@ -94,6 +94,15 @@ a {
   line-height: 1.7;
 }
 
+.site-footer a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.site-footer a:hover {
+  color: var(--ink);
+}
+
 .footer-scripture {
   font-family: var(--scripture-font);
   font-style: italic;
