@@ -17,15 +17,15 @@ Built with Next.js 15 and TypeScript. Runs locally by default — optionally con
 
 ## Part of a larger path
 
-Hide in Heart is **Step 3 — Remember** in the Scripture & ministry path of [Prayer Sealed Ministries, Inc.](https://prayersealed.org), built by [Paul Clark](https://github.com/systemslibrarian). It is where God's Word moves from the page into the heart. If you're new to faith, the path begins with **[Gospel Journey](https://systemslibrarian.github.io/gospel-journey/)** — coming to know Jesus Christ as Lord and Savior.
+Hide in Heart is **Step 3 — Remember** in the Scripture & ministry path of [Prayer Sealed Ministries, Inc.](https://prayersealed.org), built by [Paul Clark](https://github.com/systemslibrarian). It is where God's Word moves from the page into the heart. If you're new to faith, the path begins with **[Gospel Journey](https://gospel.prayersealed.org/)** — coming to know Jesus Christ as Lord and Savior.
 
 | # | Stage | Project |
 |---|---|---|
-| 1 | Believe | [Gospel Journey](https://systemslibrarian.github.io/gospel-journey/) · [repo](https://github.com/systemslibrarian/gospel-journey) |
-| 2 | Understand | [Scripture Journey](https://scripturejourney.com) · [repo](https://github.com/systemslibrarian/scripture-journey) |
+| 1 | Believe | [Gospel Journey](https://gospel.prayersealed.org/) · [repo](https://github.com/systemslibrarian/gospel-journey) |
+| 2 | Understand | [Scripture Journey](https://scripture.prayersealed.org/) · [repo](https://github.com/systemslibrarian/scripture-journey) |
 | **3** | **Remember** | **Hide in Heart** ← you are here |
-| 4 | Discern | [His Will Guide](https://hiswillguide.com) · [repo](https://github.com/systemslibrarian/hiswillguide) |
-| 5 | Intercede | [Prayer Sealed](https://prayersealed.org) |
+| 4 | Discern | [His Will Guide](https://guide.prayersealed.org/) · [repo](https://github.com/systemslibrarian/hiswillguide) |
+| 5 | Intercede | [Prayer Sealed](https://app.prayersealed.org/) |
 | 6 | Pass It On | My Life With Christ *(in development)* |
 
 ## What It Does
